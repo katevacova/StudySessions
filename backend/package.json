@@ -1,0 +1,47 @@
+{
+  "name": "team-project",
+  "version": "0.1.0",
+  "description": "Mike Hunt",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "test": "tsx src/tests.ts",
+    "lint": "eslint .",
+    "seed": "tsx seed/seed.ts",
+    "migrate:reset": "prisma migrate reset",
+    "migrate:up": "prisma migrate dev",
+    "watch": "nodemon src/server.ts"
+  },
+  "keywords": [
+    "databases"
+  ],
+  "author": "ur mom",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^9.0.8",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "nodemon": "^3.1.2",
+    "prettier": "^3.2.5",
+    "prisma": "^5.15.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@badrap/result": "^0.2.13",
+    "@prisma/client": "^5.15.0",
+    "argon2": "^0.40.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  }
+}

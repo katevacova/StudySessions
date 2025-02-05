@@ -1,0 +1,14 @@
+# Keep environment variables out of version control
+**/.env
+
+# Node modules should NEVER be commited
+**/node_modules
+
+# Other useless folders
+**/.vscode
+**/.idea
+**/dist
+out
+
+# Ignore JavaScript files, unless they are explicitly staged
+**/*.js
